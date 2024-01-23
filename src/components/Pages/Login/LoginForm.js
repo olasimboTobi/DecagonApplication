@@ -19,7 +19,9 @@ const validationSchema = Yup.object().shape({
     .required('Password cannot be empty')
     .max(20, 'Password must not exceed 20 characters')
     .matches(
-      /[a-zA-Z0-9]+/,
+      // /[a-zA-Z0-9]+/,
+      /^(?=.*[a-zA-Z])(?=.*[0-9])[a-zA-Z0-9]+$/,
+
       'Invalid password format'
     ),
 });
