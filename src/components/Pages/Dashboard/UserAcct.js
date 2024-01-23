@@ -2,7 +2,6 @@ import React from 'react'
 import { NavLink, useLocation, Link } from "react-router-dom";
 import ShadowCard from '../../ReusableShadowCard/ShadowCard';
 import decagonLogo from   '../../Assets/LoginImages/decagonImg.svg'
-import avatar from "../../Assets/DashboardImage/avatarLogo.svg"
 import avatarActive from "../../Assets/DashboardImage/avatarActive.svg"
 import resource from "../../Assets/DashboardImage/resource.svg"
 import schedule from "../../Assets/DashboardImage/schedule.svg"
@@ -10,7 +9,6 @@ import admission from "../../Assets/DashboardImage/admission.svg"
 import curriculum from "../../Assets/DashboardImage/preCuri.svg"
 import logout from "../../Assets/DashboardImage/logout.svg"
 import useAuth from '../../../hooks/useAuth';
-
 import {BsChevronDown} from "react-icons/bs"
 
 
