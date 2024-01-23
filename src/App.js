@@ -27,7 +27,7 @@ function App() {
     <Router >
       <Routes>
         
-        {/* <Route path="/" element={<Layout />}> */}
+        <Route path="/" element={<Layout />}>
           <Route path="/" element={<LoginPage/>} />
           <Route element={<RequireAuth/>}>
             <Route path="/myaccount/*" element={<Dashboard/>} />
@@ -38,7 +38,7 @@ function App() {
             <Route path="/other/*" element={<Other/>} />
           </Route>
 
-        {/* </Route> */}
+        </Route>
       </Routes>
     </Router>
   </div>
