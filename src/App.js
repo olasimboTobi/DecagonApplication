@@ -1,7 +1,6 @@
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import RequireAuth from "./components/Pages/MainPage/RequireAuth";
-import Layout from "./components/Pages/MainPage/Layout";
 import LoginPage from "./components/Pages/Login/LoginPage";
 import Dashboard from "./components/Pages/Dashboard/Dashboard";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
